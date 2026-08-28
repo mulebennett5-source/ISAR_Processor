@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="QuickWin" Version="11.0" ProjectIdGuid="{2F84775B-34C8-43A9-B783-EC654293F642}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" OutputDirectory="c:\bin\$(ConfigurationName)" IntermediateDirectory="c:\tmp\$(ConfigurationName)">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" AdditionalIncludeDirectories="c:\isar\include" Diagnostics="diagnosticsDisableAll" WarnInterfaces="true" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtQuickWinDebug" Interfaces="true"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemWindows" StackReserveSize="8000000"/>
+				<Tool Name="VFResourceCompilerTool" AdditionalIncludeDirectories="c:\isar\include"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32" OutputDirectory="c:\bin\$(ConfigurationName)" IntermediateDirectory="c:\tmp\$(ConfigurationName)">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" Optimization="optimizeFull" UseProcessorExtensions="codeExclusivelyHost" HeapArrays="0" AdditionalIncludeDirectories="c:\isar\include" RuntimeLibrary="rtQuickWin"/>
+				<Tool Name="VFLinkerTool" SuppressStartupBanner="true" SubSystem="subSystemWindows" StackReserveSize="8000000"/>
+				<Tool Name="VFResourceCompilerTool" AdditionalIncludeDirectories="c:\isar\include\"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64" OutputDirectory="c:\bin\$(PlatformName)\$(ConfigurationName)" IntermediateDirectory="c:\tmp\$(PlatformName)\$(ConfigurationName)">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" AdditionalIncludeDirectories="c:\isar\include" Diagnostics="diagnosticsDisableAll" WarnInterfaces="true" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtQuickWinDebug" Interfaces="true"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemWindows" StackReserveSize="8000000"/>
+				<Tool Name="VFResourceCompilerTool" AdditionalIncludeDirectories="c:\isar\include"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|x64" OutputDirectory="c:\bin\$(PlatformName)\$(ConfigurationName)" IntermediateDirectory="c:\tmp\$(PlatformName)\$(ConfigurationName)">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" Optimization="optimizeFull" HeapArrays="0" AdditionalIncludeDirectories="c:\isar\include" RuntimeLibrary="rtQuickWin"/>
+				<Tool Name="VFLinkerTool" SuppressStartupBanner="true" SubSystem="subSystemWindows" StackReserveSize="8000000" LargeAddressAware="addrAwareLarge"/>
+				<Tool Name="VFResourceCompilerTool" AdditionalIncludeDirectories="c:\isar\include\"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath="..\common\addtgt.f"/>
+		<File RelativePath=".\adjust.f"/>
+		<File RelativePath="..\common\cancel.f"/>
+		<File RelativePath=".\choose_tinteg.f"/>
+		<File RelativePath="..\common\clight_avg.f"/>
+		<File RelativePath="..\common\cmlib.f"/>
+		<File RelativePath="..\common\defaults.f"/>
+		<File RelativePath="..\common\ellipse_param.f"/>
+		<File RelativePath="..\common\fastfit_rt.f"/>
+		<File RelativePath="..\common\fillbuff.f"/>
+		<File RelativePath="..\common\fixem.f"/>
+		<File RelativePath="..\common\fourt.f"/>
+		<File RelativePath="..\common\getacc.f"/>
+		<File RelativePath="..\common\getacc_rt.f"/>
+		<File RelativePath=".\getAccTen.f"/>
+		<File RelativePath="..\common\getraw.f"/>
+		<File RelativePath=".\gettgt_s.f"/>
+		<File RelativePath="..\common\imgen.f"/>
+		<File RelativePath="..\common\imgen_rt.f"/>
+		<File RelativePath=".\imgenu.f"/>
+		<File RelativePath="..\common\iqgen.f"/>
+		<File RelativePath=".\isarlogo.f"/>
+		<File RelativePath=".\isart.f"/>
+		<File RelativePath="..\common\kalman.f"/>
+		<File RelativePath=".\lamps.f"/>
+		<File RelativePath=".\maritime.f"/>
+		<File RelativePath="..\common\mathsubs.f"/>
+		<File RelativePath=".\mdiags.f"/>
+		<File RelativePath=".\mocomp.f"/>
+		<File RelativePath=".\movie.f"/>
+		<File RelativePath=".\movie0.f"/>
+		<File RelativePath=".\multiLook.f"/>
+		<File RelativePath=".\norden.f"/>
+		<File RelativePath="..\common\pga.f"/>
+		<File RelativePath="..\common\polar.f"/>
+		<File RelativePath="..\common\quant.f"/>
+		<File RelativePath=".\radars.f"/>
+		<File RelativePath="..\common\rawdat.f"/>
+		<File RelativePath="..\common\realtlib.f"/>
+		<File RelativePath="..\common\reduce_sidelobes.f"/>
+		<File RelativePath="..\common\reduce_streaks.f"/>
+		<File RelativePath="..\common\remove_pg.f"/>
+		<File RelativePath=".\rfcomb0.f"/>
+		<File RelativePath="..\common\sarsubs.f"/>
+		<File RelativePath="..\common\scpsubs.f"/>
+		<File RelativePath="..\common\shipsim.f"/>
+		<File RelativePath=".\subimg.f"/>
+		<File RelativePath=".\subimg0.f"/>
+		<File RelativePath=".\subimg_rt.f"/>
+		<File RelativePath="..\common\syssun.f"/>
+		<File RelativePath=".\target.f"/>
+		<File RelativePath=".\target_rt.f"/>
+		<File RelativePath="..\common\tcolor.f"/>
+		<File RelativePath="..\common\tgtbox.f"/>
+		<File RelativePath="..\common\unirnor.f"/>
+		<File RelativePath=".\uwbsub.f"/>
+		<File RelativePath="..\common\wininit.f"/>
+		<File RelativePath="..\common\wtffti.f"/></Filter></Files>
+	<Globals/></VisualStudioProject>

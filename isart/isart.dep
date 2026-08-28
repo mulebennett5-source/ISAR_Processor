@@ -1,0 +1,169 @@
+# Microsoft Developer Studio Generated Dependency File, included by isart.mak
+
+..\common\addtgt.f : \
+	{$(INCLUDE)}"sarprm.h"\
+	{$(INCLUDE)}"tglist.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+.\adjust.f : \
+	{$(INCLUDE)}"sarprm.h"\
+	{$(INCLUDE)}"tglist.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+..\common\defaults.f : \
+	{$(INCLUDE)}"kalman.h"\
+	{$(INCLUDE)}"realtime.h"\
+	{$(INCLUDE)}"sarprm.h"\
+	{$(INCLUDE)}"tglist.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+..\common\ellipse_param.f : \
+	{$(INCLUDE)}"sarprm.h"\
+	{$(INCLUDE)}"tglist.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+..\common\fillbuff.f : \
+	{$(INCLUDE)}"realtime.h"\
+	{$(INCLUDE)}"sarprm.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+..\common\getacc.f : \
+	{$(INCLUDE)}"kalman.h"\
+	{$(INCLUDE)}"sarprm.h"\
+	{$(INCLUDE)}"tglist.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+..\common\getacc_rt.f : \
+	{$(INCLUDE)}"realtime.h"\
+	{$(INCLUDE)}"sarprm.h"\
+	{$(INCLUDE)}"tglist.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+..\common\getraw.f : \
+	{$(INCLUDE)}"sarprm.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+.\gettgt_s.f : \
+	{$(INCLUDE)}"realtime.h"\
+	{$(INCLUDE)}"sarprm.h"\
+	{$(INCLUDE)}"tglist.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+..\common\imgen_rt.f : \
+	{$(INCLUDE)}"realtime.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+..\common\iqgen.f : \
+	{$(INCLUDE)}"sarprm.h"\
+	
+
+.\isart.f : \
+	{$(INCLUDE)}"kalman.h"\
+	{$(INCLUDE)}"motime.h"\
+	{$(INCLUDE)}"realtime.h"\
+	{$(INCLUDE)}"sarprm.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+..\common\kalman.f : \
+	{$(INCLUDE)}"kalman.h"\
+	{$(INCLUDE)}"tglist.h"\
+	
+
+.\lamps.f : \
+	{$(INCLUDE)}"realtime.h"\
+	{$(INCLUDE)}"sarprm.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+.\maritime.f : \
+	{$(INCLUDE)}"realtime.h"\
+	{$(INCLUDE)}"sarprm.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+.\mdiags.f : \
+	{$(INCLUDE)}"motime.h"\
+	{$(INCLUDE)}"realtime.h"\
+	
+
+.\mocomp.f : \
+	{$(INCLUDE)}"sarprm.h"\
+	
+
+.\movie.f : \
+	{$(INCLUDE)}"kalman.h"\
+	{$(INCLUDE)}"motime.h"\
+	{$(INCLUDE)}"realtime.h"\
+	{$(INCLUDE)}"sarprm.h"\
+	{$(INCLUDE)}"tglist.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+.\norden.f : \
+	{$(INCLUDE)}"realtime.h"\
+	{$(INCLUDE)}"sarprm.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+..\common\pga.f : \
+	{$(INCLUDE)}"realtime.h"\
+	{$(INCLUDE)}"sarprm.h"\
+	{$(INCLUDE)}"tglist.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+.\radars.f : \
+	{$(INCLUDE)}"realtime.h"\
+	{$(INCLUDE)}"sarprm.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+..\common\rawdat.f : \
+	{$(INCLUDE)}"aps137hd.h"\
+	
+
+.\subimg.f : \
+	{$(INCLUDE)}"sarprm.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+.\subimg_rt.f : \
+	{$(INCLUDE)}"sarprm.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+.\target.f : \
+	{$(INCLUDE)}"updates.h"\
+	
+
+.\target_rt.f : \
+	{$(INCLUDE)}"updates.h"\
+	
+
+..\common\tcolor.f : \
+	{$(INCLUDE)}"sarprm.h"\
+	{$(INCLUDE)}"tglist.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+..\common\tgtbox.f : \
+	{$(INCLUDE)}"sarprm.h"\
+	{$(INCLUDE)}"tglist.h"\
+	{$(INCLUDE)}"updates.h"\
+	
+
+..\common\wininit.f : \
+	"..\common\scr_stuf.f"\
+	{$(INCLUDE)}"rmovie.h"\
+	
